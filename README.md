@@ -1,6 +1,6 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
+**A lab report by Noel Konagai**
 
 **Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
 
@@ -41,10 +41,11 @@ A current-limiting resistor serially connected to the LED light.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
-Around 10ms. To prove to myself that it is still blinking, I logged the behavior in the loop by adding '''Serial.print("high \n")''' and '''Serial.print("low \n")'''.
+Around 10ms. To prove to myself that it is still blinking, I logged the behavior in the loop by adding 'Serial.print("high \n")' and 'Serial.print("low \n")'.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+[Link to code](https://github.com/noelkonagai/interactive-devices/blob/master/Lab%201/blink_led.ino)
 
 ### 2. Blink your LED
 
