@@ -72,11 +72,19 @@ Around 10ms. To prove to myself that it is still blinking, I logged the behavior
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
+My beard trimmer has a switch, and I would argue that it is not a computation.
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+
+My beard trimmer has no sensors.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+My beard trimmer is battery powered. It uses a 1.2V battery, which can be charged through a charging cable. Unfortunately, I no longer have the cable, but it certainly had a power regulation function.
+
 **d. Is information stored in your device? Where? How?**
+
+My beard trimmer does not store information.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
