@@ -16,9 +16,12 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+From left to right: brown (1), black (0), black (0), black (x1).
  
 **b. What do you have to do to light your LED?**
 
+I needed to connect a power source (i.e. the USB cable to my computer) in order to light the LED. I also needed to press the switch once the Arduino board was connected to my laptop.
 
 ## Part C. Blink a LED using Arduino
 
@@ -26,11 +29,19 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+No lines of code needed to be changed.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+The delay needed to be changed.
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+A current-limiting resistor serially connected to the LED light.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
+Around 10ms. To prove to myself that it is still blinking, I logged the behavior in the loop by adding '''Serial.print("high \n")''' and '''Serial.print("low \n")'''.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
@@ -56,7 +67,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part F. FRANKENLIGHT!!!
 
-### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
