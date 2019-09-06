@@ -34,7 +34,7 @@ A current-limiting resistor serially connected to the LED light.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
-Around 10ms. To prove to myself that it is still blinking, I logged the behavior in the loop by adding 'Serial.print("high \n")' and 'Serial.print("low \n")'.
+Around 10ms. To prove to myself that it is still blinking, I logged the behavior in the loop by adding `Serial.print("high \n")` and `Serial.print("low \n")`.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
@@ -56,11 +56,11 @@ I was able to get the LED to glow through the turning range of the potentiometer
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
-'int led' needed to be changed to 11.
+`int led` needed to be changed to 11.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
-'analogWrite()' enables me to send a signal that is continuous. 'digitalWrite()' would only allow me to send 'HIGH', which in this case is 5V or 'LOW', which is GND as a signal.
+`analogWrite()` enables me to send a signal that is continuous. `digitalWrite()` would only allow me to send `HIGH`, which in this case is 5V or `LOW`, which is GND as a signal.
 
 ## Part F. FRANKENLIGHT!!!
 
