@@ -44,20 +44,23 @@ Around 10ms. To prove to myself that it is still blinking, I logged the behavior
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
-
+[Link to Video](https://youtu.be/PW_FK2ckymU)
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+I was able to get the LED to glow through the turning range of the potentiometer. I used a 10kOhm resistor as I didn't have a 220 Ohm resistor. This way, even setting the potentiometer to its maximum results in 2.5V across the LED light, which is enough to light it up.
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+'int led' needed to be changed to 11.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+'analogWrite()' enables me to send a signal that is continuous. 'digitalWrite()' would only allow me to send 'HIGH', which in this case is 5V or 'LOW', which is GND as a signal.
 
 ## Part F. FRANKENLIGHT!!!
 
