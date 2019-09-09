@@ -50,7 +50,7 @@ Around 10ms. To prove to myself that it is still blinking, I logged the behavior
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
-I was able to get the LED to glow through the turning range of the potentiometer. I used a 10kOhm resistor as I didn't have a 220 Ohm resistor. This way, even setting the potentiometer to its maximum results in 2.5V across the LED light, which is enough to light it up.
+I was able to get the LED to glow through the turning range of the potentiometer. I used a 10kOhm resistor as I didn't have a 220 Ohm resistor.
 
 ## Part E. Fade an LED using Arduino
 
