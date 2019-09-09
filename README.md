@@ -44,7 +44,7 @@ Around 10ms. To prove to myself that it is still blinking, I logged the behavior
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[Link to Video](https://youtu.be/PW_FK2ckymU)
+[Link to LED blinking Video](https://youtu.be/PW_FK2ckymU)
 
 ## Part D. Manually fade an LED
 
@@ -66,6 +66,8 @@ I was able to get the LED to glow through the turning range of the potentiometer
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
+![Shaver Schematic](https://github.com/noelkonagai/interactive-devices/blob/master/Lab%201/IDD%20Lab%201%20-%20Shaver%20Circuit.png "Shaver Schematic")
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
 My beard trimmer has a switch, and I would argue that it is not a computation.
@@ -84,10 +86,8 @@ My beard trimmer does not store information.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+I decided to cut off the motor and replace it with an LED and a resistor. However, since my battery was only 1.2V the LED did not light up. This is why, I decided to connect serially the 1.2V battery with my Arduino 5V source as shown in my video. I used alligator clips for the two ends of the original circuit where the motor used to be to connect it with the source and GND of the breadboard circuit. I also moved back the LED and resistor to the breadboard to use fewer jumper wires. This way I was able to light up the LED and it was very bright (because of the additional 1.2 V).
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
+[Link to Frankenlight Video](https://youtu.be/_W9P18gkYeU)
